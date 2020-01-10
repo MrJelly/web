@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "Gold1_Back,Gold2,Gold2_Back,Gold3,Gold3_Back,hero_png,hook_png,Kulou_Back_png,LevelPanel_png,mouse_png,Mouse_Back_png,mouseDiamond_png,play_btn_png,back_btn_png,bg_png,bgall_png,diamond_png,Diamond_Back_png,Gold1,msgboxbg_png,clearok_png,monster1_png,over_png,Level_json,objsConfig_json,coin_png,bgm_mp3,button_mp3,dig_mp3,last-10s-sound_mp3,pull_mp3,score_mp3",
+			"keys": "bgm_mp3,button_mp3,dig_mp3,last-10s-sound_mp3,pull_mp3,score_mp3,back_btn_png,bg_png,bgall_png,clearok_png,coin_png,diamond_png,Diamond_Back_png,egret_icon_png,gold1_png,gold2_png,gold2_png_back,gold3_png,gold3_png_back,hero_png,hook_png,Kulou_Back_png,LevelPanel_png,monster1_png,mouse_png,mouseDiamond_png,Mouse_Back_png,msgboxbg_png,over_png,play_btn_png,gold1_png_back,mission_json",
 			"name": "preload"
 		},
 		{
@@ -10,136 +10,6 @@
 		}
 	],
 	"resources": [
-		{
-			"url": "assets/Gold1_Back.png",
-			"type": "image",
-			"name": "Gold1_Back"
-		},
-		{
-			"url": "assets/gold2.png",
-			"type": "image",
-			"name": "Gold2"
-		},
-		{
-			"url": "assets/gold2_back.png",
-			"type": "image",
-			"name": "Gold2_Back"
-		},
-		{
-			"url": "assets/gold3.png",
-			"type": "image",
-			"name": "Gold3"
-		},
-		{
-			"url": "assets/gold3_back.png",
-			"type": "image",
-			"name": "Gold3_Back"
-		},
-		{
-			"url": "assets/hero.png",
-			"type": "image",
-			"name": "hero_png"
-		},
-		{
-			"url": "assets/hook.png",
-			"type": "image",
-			"name": "hook_png"
-		},
-		{
-			"url": "assets/Kulou_Back.png",
-			"type": "image",
-			"name": "Kulou_Back_png"
-		},
-		{
-			"url": "assets/LevelPanel.png",
-			"type": "image",
-			"name": "LevelPanel_png"
-		},
-		{
-			"url": "assets/mouse.png",
-			"type": "image",
-			"name": "mouse_png"
-		},
-		{
-			"url": "assets/Mouse_Back.png",
-			"type": "image",
-			"name": "Mouse_Back_png"
-		},
-		{
-			"url": "assets/mouseDiamond.png",
-			"type": "image",
-			"name": "mouseDiamond_png"
-		},
-		{
-			"url": "assets/play_btn.png",
-			"type": "image",
-			"name": "play_btn_png"
-		},
-		{
-			"url": "assets/back_btn.png",
-			"type": "image",
-			"name": "back_btn_png"
-		},
-		{
-			"url": "assets/bg.png",
-			"type": "image",
-			"name": "bg_png"
-		},
-		{
-			"url": "assets/bgall.png",
-			"type": "image",
-			"name": "bgall_png"
-		},
-		{
-			"url": "assets/diamond.png",
-			"type": "image",
-			"name": "diamond_png"
-		},
-		{
-			"url": "assets/Diamond_Back.png",
-			"type": "image",
-			"name": "Diamond_Back_png"
-		},
-		{
-			"url": "assets/gold1.png",
-			"type": "image",
-			"name": "Gold1"
-		},
-		{
-			"url": "assets/msgboxbg.png",
-			"type": "image",
-			"name": "msgboxbg_png"
-		},
-		{
-			"url": "assets/clearok.png",
-			"type": "image",
-			"name": "clearok_png"
-		},
-		{
-			"url": "assets/monster1.png",
-			"type": "image",
-			"name": "monster1_png"
-		},
-		{
-			"url": "assets/over.png",
-			"type": "image",
-			"name": "over_png"
-		},
-		{
-			"url": "config/Level.json",
-			"type": "json",
-			"name": "Level_json"
-		},
-		{
-			"url": "config/objsConfig.json",
-			"type": "json",
-			"name": "objsConfig_json"
-		},
-		{
-			"url": "assets/coin.png",
-			"type": "image",
-			"name": "coin_png"
-		},
 		{
 			"url": "sound/bgm.mp3",
 			"type": "sound",
@@ -171,14 +41,144 @@
 			"name": "score_mp3"
 		},
 		{
-			"url": "assets/PreLoadingBarBg.png",
+			"url": "images/back_btn.png",
+			"type": "image",
+			"name": "back_btn_png"
+		},
+		{
+			"url": "images/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "images/bgall.png",
+			"type": "image",
+			"name": "bgall_png"
+		},
+		{
+			"url": "images/clearok.png",
+			"type": "image",
+			"name": "clearok_png"
+		},
+		{
+			"url": "images/coin.png",
+			"type": "image",
+			"name": "coin_png"
+		},
+		{
+			"url": "images/diamond.png",
+			"type": "image",
+			"name": "diamond_png"
+		},
+		{
+			"url": "images/Diamond_Back.png",
+			"type": "image",
+			"name": "Diamond_Back_png"
+		},
+		{
+			"url": "images/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "images/gold1.png",
+			"type": "image",
+			"name": "gold1_png"
+		},
+		{
+			"url": "images/gold2.png",
+			"type": "image",
+			"name": "gold2_png"
+		},
+		{
+			"url": "images/gold2_back.png",
+			"type": "image",
+			"name": "gold2_png_back"
+		},
+		{
+			"url": "images/gold3.png",
+			"type": "image",
+			"name": "gold3_png"
+		},
+		{
+			"url": "images/gold3_back.png",
+			"type": "image",
+			"name": "gold3_png_back"
+		},
+		{
+			"url": "images/hero.png",
+			"type": "image",
+			"name": "hero_png"
+		},
+		{
+			"url": "images/hook.png",
+			"type": "image",
+			"name": "hook_png"
+		},
+		{
+			"url": "images/Kulou_Back.png",
+			"type": "image",
+			"name": "Kulou_Back_png"
+		},
+		{
+			"url": "images/LevelPanel.png",
+			"type": "image",
+			"name": "LevelPanel_png"
+		},
+		{
+			"url": "images/monster1.png",
+			"type": "image",
+			"name": "monster1_png"
+		},
+		{
+			"url": "images/mouse.png",
+			"type": "image",
+			"name": "mouse_png"
+		},
+		{
+			"url": "images/mouseDiamond.png",
+			"type": "image",
+			"name": "mouseDiamond_png"
+		},
+		{
+			"url": "images/Mouse_Back.png",
+			"type": "image",
+			"name": "Mouse_Back_png"
+		},
+		{
+			"url": "images/msgboxbg.png",
+			"type": "image",
+			"name": "msgboxbg_png"
+		},
+		{
+			"url": "images/over.png",
+			"type": "image",
+			"name": "over_png"
+		},
+		{
+			"url": "images/play_btn.png",
+			"type": "image",
+			"name": "play_btn_png"
+		},
+		{
+			"url": "images/PreLoadingBar.png",
+			"type": "image",
+			"name": "PreLoadingBar_png"
+		},
+		{
+			"url": "images/PreLoadingBarBg.png",
 			"type": "image",
 			"name": "PreLoadingBarBg_png"
 		},
 		{
-			"url": "assets/PreLoadingBar.png",
+			"url": "images/gold1_back.png",
 			"type": "image",
-			"name": "PreLoadingBar_png"
+			"name": "gold1_png_back"
+		},
+		{
+			"url": "config/mission.json",
+			"type": "json",
+			"name": "mission_json"
 		}
 	]
 }

@@ -26,7 +26,7 @@
 		var t = new eui.Image();
 		t.anchorOffsetX = 0;
 		t.horizontalCenter = 0;
-		t.source = "resource/assets/over.png";
+		t.source = "over_png";
 		t.verticalCenter = 0;
 		t.width = 535.34;
 		return t;
@@ -35,7 +35,7 @@
 		var t = new eui.Image();
 		this.closeBtn = t;
 		t.horizontalCenter = 0;
-		t.source = "resource/assets/clearok.png";
+		t.source = "clearok_png";
 		t.verticalCenter = 112;
 		return t;
 	};
@@ -72,7 +72,7 @@
 	_proto._Image1_i = function () {
 		var t = new eui.Image();
 		t.height = 1200;
-		t.source = "resource/assets/bgall.png";
+		t.source = "bgall_png";
 		t.width = 750;
 		t.x = 0;
 		t.y = 0;
