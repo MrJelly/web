@@ -61,18 +61,19 @@
 	__extends(GameSceneSkin, _super);
 	function GameSceneSkin() {
 		_super.call(this);
-		this.skinParts = ["goalTextField","scoreTextField","timeTextField"];
+		this.skinParts = ["yinTextField","jinTextField","timeTextField"];
 		
-		this.height = 292.2;
+		this.height = 1400;
 		this.width = 750;
-		this.elementsContent = [this._Image1_i(),this._Image2_i(),this.goalTextField_i(),this.scoreTextField_i(),this.timeTextField_i()];
+		this.elementsContent = [this._Image1_i(),this._Image2_i(),this._Image3_i(),this._Image4_i(),this._Image5_i(),this._Image6_i(),this.yinTextField_i(),this.jinTextField_i(),this.timeTextField_i(),this._Label1_i()];
 	}
 	var _proto = GameSceneSkin.prototype;
 
 	_proto._Image1_i = function () {
 		var t = new eui.Image();
-		t.height = 1200;
-		t.source = "bgall_png";
+		t.anchorOffsetY = 0;
+		t.height = 310;
+		t.source = "bg_head_png";
 		t.width = 750;
 		t.x = 0;
 		t.y = 0;
@@ -80,54 +81,99 @@
 	};
 	_proto._Image2_i = function () {
 		var t = new eui.Image();
-		t.height = 151;
-		t.source = "hero_png";
-		t.width = 168;
-		t.x = 330;
-		t.y = 34;
+		t.height = 1090;
+		t.source = "bg_bottom_png";
+		t.width = 750;
+		t.x = 0;
+		t.y = 310;
 		return t;
 	};
-	_proto.goalTextField_i = function () {
-		var t = new eui.Label();
-		this.goalTextField = t;
-		t.height = 38;
-		t.size = 30;
-		t.text = "100";
-		t.textAlign = "center";
-		t.textColor = 0x2C2020;
-		t.verticalAlign = "middle";
-		t.width = 60;
-		t.x = 168;
-		t.y = 107.418;
+	_proto._Image3_i = function () {
+		var t = new eui.Image();
+		t.height = 172;
+		t.source = "ji_png";
+		t.width = 206;
+		t.x = 272;
+		t.y = 170;
 		return t;
 	};
-	_proto.scoreTextField_i = function () {
+	_proto._Image4_i = function () {
+		var t = new eui.Image();
+		t.anchorOffsetX = 0;
+		t.anchorOffsetY = 0;
+		t.height = 84;
+		t.source = "jin_png";
+		t.width = 226;
+		t.x = 20;
+		t.y = 15;
+		return t;
+	};
+	_proto._Image5_i = function () {
+		var t = new eui.Image();
+		t.height = 84;
+		t.source = "yin_png";
+		t.width = 226;
+		t.x = 270;
+		t.y = 15;
+		return t;
+	};
+	_proto._Image6_i = function () {
+		var t = new eui.Image();
+		t.height = 84;
+		t.source = "time_png";
+		t.width = 206;
+		t.x = 524;
+		t.y = 15;
+		return t;
+	};
+	_proto.yinTextField_i = function () {
 		var t = new eui.Label();
-		this.scoreTextField = t;
-		t.border = false;
-		t.height = 38;
-		t.size = 30;
+		this.yinTextField = t;
+		t.height = 40;
+		t.size = 36;
 		t.text = "0";
 		t.textAlign = "center";
-		t.textColor = 0x2C2020;
+		t.textColor = 0xFFFFFF;
 		t.verticalAlign = "middle";
-		t.width = 60;
-		t.x = 194;
-		t.y = 34;
+		t.width = 100;
+		t.x = 368;
+		t.y = 45;
+		return t;
+	};
+	_proto.jinTextField_i = function () {
+		var t = new eui.Label();
+		this.jinTextField = t;
+		t.border = false;
+		t.height = 40;
+		t.size = 36;
+		t.text = "0";
+		t.textAlign = "center";
+		t.textColor = 0xFFFFFF;
+		t.verticalAlign = "middle";
+		t.width = 100;
+		t.x = 118;
+		t.y = 45;
 		return t;
 	};
 	_proto.timeTextField_i = function () {
 		var t = new eui.Label();
 		this.timeTextField = t;
-		t.height = 30;
-		t.size = 28;
-		t.text = "0s";
+		t.height = 40;
+		t.size = 36;
+		t.text = "0";
 		t.textAlign = "center";
-		t.textColor = 0xFFD745;
+		t.textColor = 0xFFFFFF;
 		t.verticalAlign = "middle";
 		t.width = 90;
-		t.x = 585;
-		t.y = 120;
+		t.x = 608.224;
+		t.y = 43.653;
+		return t;
+	};
+	_proto._Label1_i = function () {
+		var t = new eui.Label();
+		t.text = "s";
+		t.x = 680.543;
+		t.y = 50.194;
 		return t;
 	};
 	return GameSceneSkin;

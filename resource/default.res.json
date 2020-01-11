@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bgm_mp3,button_mp3,dig_mp3,last-10s-sound_mp3,pull_mp3,score_mp3,back_btn_png,bg_png,bgall_png,clearok_png,coin_png,diamond_png,Diamond_Back_png,egret_icon_png,gold1_png,gold2_png,gold2_png_back,gold3_png,gold3_png_back,hero_png,hook_png,Kulou_Back_png,LevelPanel_png,monster1_png,mouse_png,mouseDiamond_png,Mouse_Back_png,msgboxbg_png,over_png,play_btn_png,gold1_png_back,mission_json",
+			"keys": "bgm_mp3,button_mp3,dig_mp3,last-10s-sound_mp3,pull_mp3,score_mp3,clearok_png,coin_png,hero_png,hook_png,over_png,mission_json,bg_bottom_png,bg_head_png,ji_png,jin_png,time_png,yin_png,yinseeds1_back_png,yinseeds1_png,yinseeds4_back_png,jinseeds1_png,jinseeds2_png,jinseeds3_png,jinseeds4_png,jinseeds1_back_png,jinseeds2_back_png,jinseeds3_back_png,jinseeds4_back_png,yinseeds2_png,yinseeds3_png,yinseeds4_png,yinseeds2_back_png,yinseeds3_back_png",
 			"name": "preload"
 		},
 		{
@@ -41,21 +41,6 @@
 			"name": "score_mp3"
 		},
 		{
-			"url": "images/back_btn.png",
-			"type": "image",
-			"name": "back_btn_png"
-		},
-		{
-			"url": "images/bg.png",
-			"type": "image",
-			"name": "bg_png"
-		},
-		{
-			"url": "images/bgall.png",
-			"type": "image",
-			"name": "bgall_png"
-		},
-		{
 			"url": "images/clearok.png",
 			"type": "image",
 			"name": "clearok_png"
@@ -64,46 +49,6 @@
 			"url": "images/coin.png",
 			"type": "image",
 			"name": "coin_png"
-		},
-		{
-			"url": "images/diamond.png",
-			"type": "image",
-			"name": "diamond_png"
-		},
-		{
-			"url": "images/Diamond_Back.png",
-			"type": "image",
-			"name": "Diamond_Back_png"
-		},
-		{
-			"url": "images/egret_icon.png",
-			"type": "image",
-			"name": "egret_icon_png"
-		},
-		{
-			"url": "images/gold1.png",
-			"type": "image",
-			"name": "gold1_png"
-		},
-		{
-			"url": "images/gold2.png",
-			"type": "image",
-			"name": "gold2_png"
-		},
-		{
-			"url": "images/gold2_back.png",
-			"type": "image",
-			"name": "gold2_png_back"
-		},
-		{
-			"url": "images/gold3.png",
-			"type": "image",
-			"name": "gold3_png"
-		},
-		{
-			"url": "images/gold3_back.png",
-			"type": "image",
-			"name": "gold3_png_back"
 		},
 		{
 			"url": "images/hero.png",
@@ -116,49 +61,9 @@
 			"name": "hook_png"
 		},
 		{
-			"url": "images/Kulou_Back.png",
-			"type": "image",
-			"name": "Kulou_Back_png"
-		},
-		{
-			"url": "images/LevelPanel.png",
-			"type": "image",
-			"name": "LevelPanel_png"
-		},
-		{
-			"url": "images/monster1.png",
-			"type": "image",
-			"name": "monster1_png"
-		},
-		{
-			"url": "images/mouse.png",
-			"type": "image",
-			"name": "mouse_png"
-		},
-		{
-			"url": "images/mouseDiamond.png",
-			"type": "image",
-			"name": "mouseDiamond_png"
-		},
-		{
-			"url": "images/Mouse_Back.png",
-			"type": "image",
-			"name": "Mouse_Back_png"
-		},
-		{
-			"url": "images/msgboxbg.png",
-			"type": "image",
-			"name": "msgboxbg_png"
-		},
-		{
 			"url": "images/over.png",
 			"type": "image",
 			"name": "over_png"
-		},
-		{
-			"url": "images/play_btn.png",
-			"type": "image",
-			"name": "play_btn_png"
 		},
 		{
 			"url": "images/PreLoadingBar.png",
@@ -171,14 +76,119 @@
 			"name": "PreLoadingBarBg_png"
 		},
 		{
-			"url": "images/gold1_back.png",
-			"type": "image",
-			"name": "gold1_png_back"
-		},
-		{
 			"url": "config/mission.json",
 			"type": "json",
 			"name": "mission_json"
+		},
+		{
+			"url": "images/bg_bottom.png",
+			"type": "image",
+			"name": "bg_bottom_png"
+		},
+		{
+			"url": "images/bg_head.png",
+			"type": "image",
+			"name": "bg_head_png"
+		},
+		{
+			"url": "images/ji.png",
+			"type": "image",
+			"name": "ji_png"
+		},
+		{
+			"url": "images/jin.png",
+			"type": "image",
+			"name": "jin_png"
+		},
+		{
+			"url": "images/time.png",
+			"type": "image",
+			"name": "time_png"
+		},
+		{
+			"url": "images/yin.png",
+			"type": "image",
+			"name": "yin_png"
+		},
+		{
+			"url": "images/yinseeds1_back.png",
+			"type": "image",
+			"name": "yinseeds1_back_png"
+		},
+		{
+			"url": "images/yinseeds1.png",
+			"type": "image",
+			"name": "yinseeds1_png"
+		},
+		{
+			"url": "images/yinseeds4_back.png",
+			"type": "image",
+			"name": "yinseeds4_back_png"
+		},
+		{
+			"url": "images/jinseeds1.png",
+			"type": "image",
+			"name": "jinseeds1_png"
+		},
+		{
+			"url": "images/jinseeds2.png",
+			"type": "image",
+			"name": "jinseeds2_png"
+		},
+		{
+			"url": "images/jinseeds3.png",
+			"type": "image",
+			"name": "jinseeds3_png"
+		},
+		{
+			"url": "images/jinseeds4.png",
+			"type": "image",
+			"name": "jinseeds4_png"
+		},
+		{
+			"url": "images/jinseeds1_back.png",
+			"type": "image",
+			"name": "jinseeds1_back_png"
+		},
+		{
+			"url": "images/jinseeds2_back.png",
+			"type": "image",
+			"name": "jinseeds2_back_png"
+		},
+		{
+			"url": "images/jinseeds3_back.png",
+			"type": "image",
+			"name": "jinseeds3_back_png"
+		},
+		{
+			"url": "images/jinseeds4_back.png",
+			"type": "image",
+			"name": "jinseeds4_back_png"
+		},
+		{
+			"url": "images/yinseeds2.png",
+			"type": "image",
+			"name": "yinseeds2_png"
+		},
+		{
+			"url": "images/yinseeds3.png",
+			"type": "image",
+			"name": "yinseeds3_png"
+		},
+		{
+			"url": "images/yinseeds4.png",
+			"type": "image",
+			"name": "yinseeds4_png"
+		},
+		{
+			"url": "images/yinseeds2_back.png",
+			"type": "image",
+			"name": "yinseeds2_back_png"
+		},
+		{
+			"url": "images/yinseeds3_back.png",
+			"type": "image",
+			"name": "yinseeds3_back_png"
 		}
 	]
 }
