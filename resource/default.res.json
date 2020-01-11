@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bgm_mp3,button_mp3,dig_mp3,last-10s-sound_mp3,pull_mp3,score_mp3,clearok_png,coin_png,hero_png,hook_png,over_png,mission_json,bg_bottom_png,bg_head_png,ji_png,jin_png,time_png,yin_png,yinseeds1_back_png,yinseeds1_png,yinseeds4_back_png,jinseeds1_png,jinseeds2_png,jinseeds3_png,jinseeds4_png,jinseeds1_back_png,jinseeds2_back_png,jinseeds3_back_png,jinseeds4_back_png,yinseeds2_png,yinseeds3_png,yinseeds4_png,yinseeds2_back_png,yinseeds3_back_png",
+			"keys": "bgm_mp3,button_mp3,dig_mp3,last-10s-sound_mp3,pull_mp3,score_mp3,clearok_png,coin_png,hero_png,hook_png,over_png,mission_json,bg_bottom_png,bg_head_png,ji_png,jin_png,time_png,yin_png,yinseeds1_back_png,yinseeds1_png,yinseeds4_back_png,jinseeds1_png,jinseeds2_png,jinseeds3_png,jinseeds4_png,jinseeds1_back_png,jinseeds2_back_png,jinseeds3_back_png,jinseeds4_back_png,yinseeds2_png,yinseeds3_png,yinseeds4_png,yinseeds2_back_png,yinseeds3_back_png,yin_animation_png,jin_animation_png,music_on_png,music_off_png",
 			"name": "preload"
 		},
 		{
@@ -189,6 +189,26 @@
 			"url": "images/yinseeds3_back.png",
 			"type": "image",
 			"name": "yinseeds3_back_png"
+		},
+		{
+			"name": "yin_animation_png",
+			"type": "image",
+			"url": "images/yin_animation.png"
+		},
+		{
+			"name": "jin_animation_png",
+			"type": "image",
+			"url": "images/jin_animation.png"
+		},
+		{
+			"name": "music_on_png",
+			"type": "image",
+			"url": "images/music_on.png"
+		},
+		{
+			"name": "music_off_png",
+			"type": "image",
+			"url": "images/music_off.png"
 		}
 	]
 }
